@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Stratis SDK Example V2</string>
+    <string name="enter_property_id">Enter Property ID</string>
+    <string name="enter_access_token">Enter Access Token</string>
+    <string name="get_locks">Get Locks</string>
+    <string name="scan_locks">Scan Locks</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="server_environments">
+        <item>Select server environment</item>
+        <item>DEV</item>
+        <item>SANDBOX</item>
+        <item>TEST</item>
+        <item>PROD</item>
+    </string-array>
+</resources>

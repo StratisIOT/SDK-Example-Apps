@@ -1,1 +1,0 @@
-# StratisSDK Example App

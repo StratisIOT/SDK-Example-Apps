@@ -1,4 +1,4 @@
-package com.example.sdkexamplev2
+package com.example.sdkexample
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry

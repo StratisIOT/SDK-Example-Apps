@@ -1,4 +1,4 @@
-package com.example.sdkexamplev2
+package com.example.sdkexample
 
 import android.Manifest.permission.ACCESS_COARSE_LOCATION
 import android.Manifest.permission.ACCESS_FINE_LOCATION

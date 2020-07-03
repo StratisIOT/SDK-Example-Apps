@@ -1,4 +1,4 @@
-package com.example.sdkexamplev2
+package com.example.sdkexample
 
 import android.content.Intent
 import android.os.Bundle

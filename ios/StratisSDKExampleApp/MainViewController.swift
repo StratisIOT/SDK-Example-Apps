@@ -96,6 +96,14 @@ extension MainViewController: StratisDeviceAccessDelegate {
 }
 
 extension MainViewController: StratisDeviceDiscoveryDelegate {
+    func stratisDiscoveryUpdatedRSSI(_ stratisSDK: StratisSDK, devices: [StratisLock]) {
+        print(devices)
+    }
+    
+    func stratisDiscoveryDevicesOutOfRange(_ stratisSDK: StratisSDK, devices: [StratisLock]) {
+        print(devices)
+    }
+    
     func stratisDiscoveredDevices(_ stratisSDK: StratisSDK, devices: [StratisLock]) {
         DispatchQueue.main.async { [weak self] in
             self?.tableView.reloadData()
